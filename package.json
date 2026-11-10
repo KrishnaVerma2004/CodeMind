@@ -1,0 +1,32 @@
+{
+  "name": "codemind-ai",
+  "version": "1.0.0",
+  "description": "CodeMind AI - AI-Powered Software Intelligence & Codebase Understanding Platform",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "worker",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "npm --workspace=backend run dev",
+    "dev:worker": "npm --workspace=worker run dev",
+    "dev:frontend": "npm --workspace=frontend run dev",
+    "start:backend": "npm --workspace=backend start",
+    "start:worker": "npm --workspace=worker start",
+    "build:frontend": "npm --workspace=frontend run build",
+    "test:backend": "npm --workspace=backend test",
+    "test": "npm --workspace=backend test"
+  },
+  "keywords": [
+    "software-intelligence",
+    "code-analysis",
+    "ast",
+    "rag",
+    "gemini",
+    "mern"
+  ],
+  "author": "CodeMind AI Team",
+  "license": "ISC"
+}
+
